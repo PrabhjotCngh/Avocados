@@ -30,6 +30,7 @@
 		8DD12A3A2A28D428007ECCBB /* FactData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD12A392A28D428007ECCBB /* FactData.swift */; };
 		8DD12A3C2A28D432007ECCBB /* RecipeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD12A3B2A28D432007ECCBB /* RecipeData.swift */; };
 		8DD12A3E2A28D43A007ECCBB /* RipeningData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD12A3D2A28D43A007ECCBB /* RipeningData.swift */; };
+		8DD12A402A28D753007ECCBB /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD12A3F2A28D753007ECCBB /* AppView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		8DD12A392A28D428007ECCBB /* FactData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactData.swift; sourceTree = "<group>"; };
 		8DD12A3B2A28D432007ECCBB /* RecipeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeData.swift; sourceTree = "<group>"; };
 		8DD12A3D2A28D43A007ECCBB /* RipeningData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningData.swift; sourceTree = "<group>"; };
+		8DD12A3F2A28D753007ECCBB /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 		8DD12A172A28CDFB007ECCBB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8DD12A3F2A28D753007ECCBB /* AppView.swift */,
 				8DD12A042A28C4CB007ECCBB /* ContentView.swift */,
 				8DD12A192A28D313007ECCBB /* AvocadosView.swift */,
 				8DD12A2D2A28D387007ECCBB /* HeaderView.swift */,
@@ -224,6 +227,7 @@
 				8DD12A322A28D3F9007ECCBB /* FactModel.swift in Sources */,
 				8DD12A3A2A28D428007ECCBB /* FactData.swift in Sources */,
 				8DD12A1E2A28D339007ECCBB /* SettingsView.swift in Sources */,
+				8DD12A402A28D753007ECCBB /* AppView.swift in Sources */,
 				8DD12A1A2A28D313007ECCBB /* AvocadosView.swift in Sources */,
 				8DD12A2C2A28D37D007ECCBB /* RipeningView.swift in Sources */,
 				8DD12A2A2A28D374007ECCBB /* RecipeDetailView.swift in Sources */,
