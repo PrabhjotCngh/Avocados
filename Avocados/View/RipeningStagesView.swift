@@ -9,16 +9,30 @@ import SwiftUI
 
 struct RipeningStagesView: View {
     //MARK: - Properties
-    
+    var ripeningStages: [Ripening] = ripeningData
+
     //MARK: - Body
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView(.horizontal, showsIndicators: false) {
+          VStack {
+            Spacer()
+            HStack(alignment: .center, spacing: 25) {
+              ForEach(ripeningStages) { item in
+                RipeningView(ripening: item)
+              }
+            }
+            .padding(.vertical)
+            .padding(.horizontal, 25)
+            Spacer()
+          } //: VStack
+        } //: ScrollView
+        .edgesIgnoringSafeArea(.all)
     }
 }
 
 //MARK: - Preview
 struct RipeningStagesView_Previews: PreviewProvider {
     static var previews: some View {
-        RipeningStagesView()
+        RipeningStagesView(ripeningStages: ripeningData)
     }
 }
