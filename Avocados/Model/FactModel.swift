@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+// MARK: - Fact Model
+struct Fact: Identifiable {
+  var id = UUID()
+  var image: String
+  var content: String
+}
